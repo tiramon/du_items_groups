@@ -142,9 +142,9 @@
 {"Id": "08d8a31f-5034-42d4-84e8-d23f90cc84af","Name": "Ground Engines","Icon": "https://cdn.hyperion-corporation.de/iconslib/hoverenginelargeunder.png","ParentId": "08d8a31f-5023-42b4-8e4b-4b15cbe9bf46","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d8a31f-5032-4f7a-8e64-067d8330562f","Name": "Space Engines XS","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginesmall.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d8a31f-5031-4c63-86fe-f3515ffe836e","Name": "Space Engines XL","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginexlarge.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "08d8a31f-5030-497a-82fa-319413cccd6f","Name": "Small Space Engines","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginesmall.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "08d8a31f-502f-46c4-8cf7-164b3f791b1a","Name": "Medium Space Engines","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginemedium.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "08d8a31f-502e-437d-8612-b3e034e6eb2f","Name": "Large Space Engines","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginelarge.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "08d8a31f-5030-497a-82fa-319413cccd6f","Name": "Space Engines S","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginesmall.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "08d8a31f-502f-46c4-8cf7-164b3f791b1a","Name": "Space Engines M","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginemedium.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "08d8a31f-502e-437d-8612-b3e034e6eb2f","Name": "Space Engines L","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginelarge.png","ParentId": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d8a31f-502d-40ed-8abd-4b3ec2a867a0","Name": "Space Engines","Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginelarge.png","ParentId": "08d8a31f-5023-42b4-8e4b-4b15cbe9bf46","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d8a31f-502b-4e76-8f2b-a1495d7a1aec","Name": "Rocket Engines","Icon": "https://cdn.hyperion-corporation.de/iconslib/rocket_engine_l.png","ParentId": "08d8a31f-5023-42b4-8e4b-4b15cbe9bf46","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d8a31f-502a-4bce-8729-123f6a8b8398","Name": "Atmospheric Engines XS","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericenginexsmall.png","ParentId": "08d8a31f-5025-4a4f-851e-ea1b23d6550e","Hidden": false,"Sorting": 0,"Description": null},
@@ -383,10 +383,10 @@
 {"Id": "00000000-0000-0000-0002-000000000009","Name": "Medium Hovercraft Engines","Icon": null,"ParentId": "08d8a31f-5035-45c6-8733-05c1b2079f23","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "00000000-0000-0000-0002-00000000000A","Name": "Small Hovercraft Engines","Icon": null,"ParentId": "08d8a31f-5035-45c6-8733-05c1b2079f23","Hidden": false,"Sorting": 0,"Description": null},
 
-{"Id": "00000000-0000-0000-0002-00000000000B","Name": "Extra Small Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "00000000-0000-0000-0002-00000000000C","Name": "Large Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "00000000-0000-0000-0002-00000000000D","Name": "Small Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "00000000-0000-0000-0002-00000000000E","Name": "Medium Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000B","Name": "Extra Small Vertical Boosters","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericverticalbooster.png","ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000C","Name": "Large Vertical Boosters","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericverticalbooster.png","ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000D","Name": "Small Vertical Boosters","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericverticalbooster.png","ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000E","Name": "Medium Vertical Boosters","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericverticalbooster.png","ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
 
-
+{"Id": "00000000-0000-0000-0002-00000000000F","Name": "Relic Plasmas","Icon": null,"ParentId": "08d8a31f-4f18-4d5e-8058-7b62788124ab","Hidden": false,"Sorting": 0,"Description": null}
 ]
