@@ -388,5 +388,12 @@
 {"Id": "00000000-0000-0000-0002-00000000000D","Name": "Small Vertical Boosters","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericverticalbooster.png","ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "00000000-0000-0000-0002-00000000000E","Name": "Medium Vertical Boosters","Icon": "https://cdn.hyperion-corporation.de/iconslib/atmosphericverticalbooster.png","ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
 
-{"Id": "00000000-0000-0000-0002-00000000000F","Name": "Relic Plasmas","Icon": null,"ParentId": "08d8a31f-4f18-4d5e-8058-7b62788124ab","Hidden": false,"Sorting": 0,"Description": null}
+{"Id": "00000000-0000-0000-0002-00000000000F","Name": "Relic Plasmas","Icon": null,"ParentId": "08d8a31f-4f18-4d5e-8058-7b62788124ab","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-000000000010","Name": "Base Shield Generators","Icon": null,"ParentId": "08d8a31f-4f43-4c1b-857d-a83c01d973a8","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-000000000011","Name": "Shield Generators XS","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-000000000012","Name": "Shield Generators S","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-000000000013","Name": "Shield Generators M","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-000000000014","Name": "Shield Generators L","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null}
+
+
 ]
