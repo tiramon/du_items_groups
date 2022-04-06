@@ -1,5 +1,4 @@
-[
-{"Id": "08d99c57-7d0c-4e3b-8bf8-ed32a12f6af0","Name": "Mining units","Icon": "https://cdn.hyperion-corporation.de/iconslib/env_mining-unit_001_l_icon.png","ParentId": "08d8a31f-4fca-41ed-8134-ddaeff6f3cc8","Hidden": false,"Sorting": 0,"Description": null},
+[{"Id": "08d99c57-7d0c-4e3b-8bf8-ed32a12f6af0","Name": "Mining units","Icon": "https://cdn.hyperion-corporation.de/iconslib/env_mining-unit_001_l_icon.png","ParentId": "08d8a31f-4fca-41ed-8134-ddaeff6f3cc8","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d983f2-4c45-4042-837d-73282f0eaffc","Name": "Shield Generator","Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","ParentId": "08d8a31f-4f43-4c1b-857d-a83c01d973a8","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d983ea-8716-40ad-8aa8-24e2786fb1a6","Name": "Deep Space Asteroid Trackers","Icon": "https://cdn.hyperion-corporation.de/iconslib/env_tracker-deep-space-asteroid_001_m_icon.png","ParentId": "08d8a31f-4f3b-4240-84ae-2d75a739182b","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "08d8a31f-515f-4d26-8af3-519519a84f23","Name": "Standard Frames","Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-standart-frame_001_icon.png","ParentId": "08d8a31f-5159-4bb2-877d-6d69aec28495","Hidden": false,"Sorting": 0,"Description": null},
@@ -383,4 +382,11 @@
 {"Id": "00000000-0000-0000-0002-000000000008","Name": "Large Hovercraft Engines","Icon": null,"ParentId": "08d8a31f-5035-45c6-8733-05c1b2079f23","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "00000000-0000-0000-0002-000000000009","Name": "Medium Hovercraft Engines","Icon": null,"ParentId": "08d8a31f-5035-45c6-8733-05c1b2079f23","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "00000000-0000-0000-0002-00000000000A","Name": "Small Hovercraft Engines","Icon": null,"ParentId": "08d8a31f-5035-45c6-8733-05c1b2079f23","Hidden": false,"Sorting": 0,"Description": null},
+
+{"Id": "00000000-0000-0000-0002-00000000000B","Name": "Extra Small Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000C","Name": "Large Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000D","Name": "Small Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-00000000000E","Name": "Medium Vertical Boosters","Icon": null,"ParentId": "08d8a31f-5036-4914-8e4d-6fd4f5a1d624","Hidden": false,"Sorting": 0,"Description": null},
+
+
 ]
