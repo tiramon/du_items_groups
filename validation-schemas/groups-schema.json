@@ -1,0 +1,9 @@
+{
+    "$id": "items-schema.json",
+    "title": "Dual Universe Item",
+    "description": "a item in dual universe",
+    "type": "array",
+    "items": {
+        "$ref": "group-schema.json"
+    }
+  }

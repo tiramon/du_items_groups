@@ -1,0 +1,18 @@
+{
+    "$id": "group-schema.json",
+    "title": "Dual Universe Item Group",
+    "description": "a group of items in dual universe",
+    "type": "object",
+    "properties": {
+        "Id": { "type": "string"},
+        "Name": { "description": "the name of the item", "type": "string"},
+        "Icon": {"type": "string"},
+        "ParentId": {"type": "string"},
+        "Hidden": {"type": "boolean"},
+        "Sorting": {"type": "integer"},        
+        "Description": {"description": "a describing text for the group", "type": "string"},
+        
+        
+    },
+    "required": ["Id","Name"]
+}
