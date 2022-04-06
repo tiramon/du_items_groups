@@ -12,8 +12,8 @@ jobs:
         env:
           INPUT_SCHEMA: items-schema.json
           INPUT_JSONS: items.json
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: groups-schema.json
-          INPUT_JSONS: groups.json
+#      - name: Validate JSON
+#        uses: docker://orrosenblatt/validate-json-action:latest
+#        env:
+#          INPUT_SCHEMA: groups-schema.json
+#          INPUT_JSONS: groups.json
