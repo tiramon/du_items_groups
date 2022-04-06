@@ -1,5 +1,4 @@
 {
-    "$schema": "https://json-schema.org/draft-07/schema",
     "$id": "item-schema.json",
     "title": "Dual Universe Item",
     "description": "a item in dual universe",
@@ -16,4 +15,4 @@
         "GroupId": {"type": "string"}
     },
     "required": ["Name", "Description", "Volume", "Tier", "NqId", "Mass", "GroupId"]
-  }
+}
