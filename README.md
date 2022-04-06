@@ -10,7 +10,7 @@ If you see any mistakes, types or just missing data just create an issue or star
 
 - add missing athena items
 - create npm package
-- add little script to validate unique ids on push/pull request
+- add little script to validate unique ids and valid json on push/pull request
 - fix honeycomb NQIds
 - add recipe ids
 - get icon files to upload on own server
