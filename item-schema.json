@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/tiramon/du_items_groups/main/item-schema.json",
+    "title": "Dual Universe Item",
+    "description": "a item in dual universe",
+    "type": "object",
+    "properties": {
+        "Name": { "description": "the name of the item", "type": "string"},
+        "Description": {"description": "a describing text for the item", "type": "string"},
+        "Volume": {"type": "number", "minimum": 0},
+        "Tier": {"type": "integer", "minimum": 0, "maximum": 5},
+        "NqId": {"type": "integer", "minimum": 0},
+        "NqRecipeId": {"type": "number"},
+        "Mass": {"type": "number", "minimum": 0},
+        "Icon": {"type": "string"},
+        "GroupId": {"type": "string"}
+    },
+    "required": ["Name", "Description", "Volume", "Tier", "NqId", "Mass", "GroupId"]
+  }
