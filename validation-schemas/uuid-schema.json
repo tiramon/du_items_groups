@@ -1,5 +1,5 @@
 {
-    "$id": "uuid.json",
+    "$id": "uuid-schema.json",
     "title": "UUID",
     "description": "a uuid",
     "type": "string",

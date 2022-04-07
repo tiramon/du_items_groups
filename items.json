@@ -2898,35 +2898,266 @@
 {"Name": "Exotic Maneuver Space Engine XS","Description": "Space Engines are used to give thrust to constructs in space. They consume space fuel and demand proper placement for optimal usage. Space Engines XS are useful for course correction on all ships or main thrust on very small crafts like single man shuttles. The Maneuver variation is faster to warm up and consumes less fuel, but is less resistant.","Volume": 20.33,"Tier": 5,"NqId": 2368501170,"NqSchemaId": null,"Mass": 146.2,"Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginexsmall.png","GroupId": "08d8a31f-5032-4f7a-8e64-067d8330562f"},
 {"Name": "Exotic Military Space Engine XS","Description": "Space Engines are used to give thrust to constructs in space. They consume space fuel and demand proper placement for optimal usage. Space Engines XS are useful for course correction on all ships or main thrust on very small crafts like single man shuttles. The Military variation is more powerful and resistant, but consumes more fuel.","Volume": 20.33,"Tier": 5,"NqId": 1754053132,"NqSchemaId": null,"Mass": 146.2,"Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginexsmall.png","GroupId": "08d8a31f-5032-4f7a-8e64-067d8330562f"},
 {"Name": "Exotic Safe Space Engine XS","Description": "Space Engines are used to give thrust to constructs in space. They consume space fuel and demand proper placement for optimal usage. Space Engines XS are useful for course correction on all ships or main thrust on very small crafts like single man shuttles. The Safe variation is faster to warm up and more resistant, but is less powerful.","Volume": 20.33,"Tier": 5,"NqId": 175947631,"NqSchemaId": null,"Mass": 146.2,"Icon": "https://cdn.hyperion-corporation.de/iconslib/spaceenginexsmall.png","GroupId": "08d8a31f-5032-4f7a-8e64-067d8330562f"},
+{
+    "Name": "Relic Plasma Decem L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1769135512,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-DE can be used to craft high tier Radars."
+},
+{
+    "Name": "Relic Plasma Duo L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558336,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-DU can be used to craft high tier atmospheric engine variants."
+},
+{
+    "Name": "Relic Plasma Novem L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831557945,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-NO can be used to craft high tier Shield Generator variants."
+},
+{
+    "Name": "Relic Plasma Octo L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558342,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-OC can be used to craft high tier Container variants."
+},
+{
+    "Name": "Relic Plasma Quattuor L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558338,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-QA can be used to craft high tier Cannon variants."
+},
+{
+    "Name": "Relic Plasma Quinque L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558341,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-QI can be used to craft high tier Laser variants."
+},
+{
+    "Name": "Relic Plasma Septem L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558343,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-SE can be used to craft high tier Railgun variants."
+},
+{
+    "Name": "Relic Plasma Sex L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558340,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-SX can be used to craft high tier missile variants."
+},
+{
+    "Name": "Relic Plasma Tres L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1831558339,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-TR can be used to craft high tier Hover engine variants."
+},
+{
+    "Name": "Relic Plasma Unus L",
+    "GroupId": "00000000-0000-0000-0002-00000000000F",
+    "Tier": 5,
+    "NqId": 1769135512,
+    "Volume": 1500,
+    "Mass": 2500,
+    "Icon": null,
+    "Description": "Relic Plasma can be used to craft specialized high tier elements. RP-UN can be used to craft high tier space engine variants."
+},
 
+{
+    "Name": "Exotic Combustion Chamber L",
+    "GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5",
+    "Tier": 5,
+    "NqId": 2662310725,
+    "NqSchemaId": null,
+    "Volume": 1382.4,
+    "Mass": 9220,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Combustion Chamber M",
+    "GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5",
+    "Tier": 5,
+    "NqId": 2662310725,
+    "NqSchemaId": null,
+    "Volume": 267.2,
+    "Mass": 1730,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Combustion Chamber S",
+    "GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5",
+    "Tier": 5,
+    "NqId": 2662310723,
+    "NqSchemaId": null,
+    "Volume": 57.6,
+    "Mass": 362.47,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Combustion Chamber XS",
+    "GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5",
+    "Tier": 5,
+    "NqId": 4016282202,
+    "NqSchemaId": null,
+    "Volume": 25.6,
+    "Mass": 158.36,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
 
-{"Name": "Relic Plasma Decem L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-DE can be used to craft high tier Radars.","Volume": 1500,"Tier": 5,"NqId": 1769135512,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Duo L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-DU can be used to craft high tier atmospheric engine variants.","Volume": 1500,"Tier": 5,"NqId": 1831558336,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Novem L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-NO can be used to craft high tier Shield Generator variants.","Volume": 1500,"Tier": 5,"NqId": 1831557945,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Octo L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-OC can be used to craft high tier Container variants.","Volume": 1500,"Tier": 5,"NqId": 1831558342,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Quattuor L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-QA can be used to craft high tier Cannon variants.","Volume": 1500,"Tier": 5,"NqId": 1831558338,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Quinque L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-QI can be used to craft high tier Laser variants.","Volume": 1500,"Tier": 5,"NqId": 1831558341,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Septem L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-SE can be used to craft high tier Railgun variants.","Volume": 1500,"Tier": 5,"NqId": 1831558343,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Sex L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-SX can be used to craft high tier missile variants.","Volume": 1500,"Tier": 5,"NqId": 1831558340,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Tres L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-TR can be used to craft high tier Hover engine variants.","Volume": 1500,"Tier": 5,"NqId": 1831558339,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
-{"Name": "Relic Plasma Unus L","Description": "Relic Plasma can be used to craft specialized high tier elements. RP-UN can be used to craft high tier space engine variants.","Volume": 1500,"Tier": 5,"NqId": 1769135512,"NqSchemaId": null,"Mass": 2500,"Icon": null,"GroupId": "00000000-0000-0000-0002-00000000000F"},
+{
+    "Name": "Exotic Injector",
+    "GroupId": "08d8a31f-50fd-4c12-8954-19ee8310de60",
+    "Tier": 5,
+    "NqId": 1971447076,
+    "NqSchemaId": 181802766,
+    "Volume": 10,
+    "Mass": 20.93,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_complex-part-injector_001_icon.png",
+    "Description": "Complex parts are advanced Components providing high-tech functionality.",
+    "recipe": {
+        "craftingTime": 1200,
+        "ingredients": [
+            {"key": "Basic Screw", "quantity": 1},
+            {"key": "Uncommon Screw", "quantity": 1},
+            {"key": "Polysulfide plastic product", "quantity": 2},
+            {"key": "Advanced Screw", "quantity": 2},
+            {"key": "Flourpolymer", "quantity": 2},
+            {"key": "Vanamer product", "quantity": 2}
+        ],
+        "products": [
+            {"key": "Exotic Injector", "quantity": 1}
+        ]
+    }
+},
 
-{"Name": "Exotic Combustion Chamber L","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 1382.4,"Tier": 5,"NqId": 2662310725,"NqSchemaId": null,"Mass": 9220,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png","GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5"},
-{"Name": "Exotic Combustion Chamber M","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 267.2,"Tier": 5,"NqId": 2662310725,"NqSchemaId": null,"Mass": 1730,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png","GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5"},
-{"Name": "Exotic Combustion Chamber S","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 57.6,"Tier": 5,"NqId": 2662310723,"NqSchemaId": null,"Mass": 362.47,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png","GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5"},
-{"Name": "Exotic Combustion Chamber XS","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 25.6,"Tier": 5,"NqId": 4016282202,"NqSchemaId": null,"Mass": 158.36,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-combustion-chamber_001_icon.png","GroupId": "08d8a31f-512e-4a7b-87aa-271e024c26b5"},
-
-{"Name": "Exotic Injector","Description": "Complex parts are advanced Components providing high-tech functionality.","Volume": 10,"Tier": 5,"NqId": 1971447076,"NqSchemaId": null,"Mass": 20.93,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_complex-part-injector_001_icon.png","GroupId": "08d8a31f-50fd-4c12-8954-19ee8310de60"},
-
-{"Name": "Exotic  Gas Cylinder S","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 57.6,"Tier": 5,"NqId": 2119086407,"NqSchemaId": null,"Mass": 97.86,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-gaz-cylindre_001_icon.png","GroupId": "08d8a31f-5132-41d8-87b7-bd86169677f5"},
-{"Name": "Exotic  Gas Cylinder M","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 267.2,"Tier": 5,"NqId": 2119086429,"NqSchemaId": null,"Mass": 479.24,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-gaz-cylindre_001_icon.png","GroupId": "08d8a31f-5132-41d8-87b7-bd86169677f5"},
-{"Name": "Exotic  Gas Cylinder L","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 1382.4,"Tier": 5,"NqId": 2119086428,"NqSchemaId": null,"Mass": 2570,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-gaz-cylindre_001_icon.png","GroupId": "08d8a31f-5132-41d8-87b7-bd86169677f5"},
-{"Name": "Exotic Ionic Chamber L","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 1096.29,"Tier": 5,"NqId": 1390563109,"NqSchemaId": null,"Mass": 11340,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
-{"Name": "Exotic Ionic Chamber M","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 208.29,"Tier": 5,"NqId": 1390563130,"NqSchemaId": null,"Mass": 2170,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
-{"Name": "Exotic Ionic Chamber S","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 44.13,"Tier": 5,"NqId": 1390563132,"NqSchemaId": null,"Mass": 462.59,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
-{"Name": "Exotic Ionic Chamber XL","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 6006.69,"Tier": 5,"NqId": 962696448,"NqSchemaId": null,"Mass": 61820,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
-{"Name": "Exotic Ionic Chamber XS","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 19.1,"Tier": 5,"NqId": 962696457,"NqSchemaId": null,"Mass": 205.44,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
-
+{
+    "Name": "Exotic Gas Cylinder S",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.",
+    "Volume": 57.6,
+    "Tier": 5,
+    "NqId": 2119086407,
+    "NqSchemaId": null,
+    "Mass": 97.86,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-gaz-cylindre_001_icon.png",
+    "GroupId": "08d8a31f-5132-41d8-87b7-bd86169677f5"
+},
+{
+    "Name": "Exotic Gas Cylinder M",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.",
+    "Volume": 267.2,
+    "Tier": 5,
+    "NqId": 2119086429,
+    "NqSchemaId": null,
+    "Mass": 479.24,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-gaz-cylindre_001_icon.png",
+    "GroupId": "08d8a31f-5132-41d8-87b7-bd86169677f5"
+},
+{
+    "Name": "Exotic Gas Cylinder L",
+    "GroupId": "08d8a31f-5132-41d8-87b7-bd86169677f5",
+    "Tier": 5,
+    "NqId": 2119086428,
+    "NqSchemaId": null,
+    "Volume": 1382.4,
+    "Mass": 2570,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-gaz-cylindre_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Ionic Chamber L",
+    "GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094",
+    "Tier": 5,
+    "NqId": 1390563109,
+    "NqSchemaId": null,
+    "Volume": 1096.29,
+    "Mass": 11340,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Ionic Chamber M",
+    "GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094",
+    "Tier": 5,
+    "NqId": 1390563130,
+    "NqSchemaId": null,
+    "Volume": 208.29,
+    "Mass": 2170,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Ionic Chamber S",
+    "GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094",
+    "Tier": 5,
+    "NqId": 1390563132,
+    "NqSchemaId": null,
+    "Volume": 44.13,
+    "Mass": 462.59,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Ionic Chamber XL",
+    "GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094",
+    "Tier": 5,
+    "NqId": 962696448,
+    "NqSchemaId": null,
+    "Volume": 6006.69,
+    "Mass": 61820,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
+{
+    "Name": "Exotic Ionic Chamber XS",
+    "GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094",
+    "Tier": 5,
+    "NqId": 962696457,
+    "NqSchemaId": null,
+    "Volume": 19.1,
+    "Mass": 205.44,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume."
+},
 {
     "Name": "Exotic Mobile Panel S",
     "GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9",
@@ -3023,7 +3254,6 @@
         ]
     }
 },
-
 {
     "Name": "Exotic Standard Frame XL",
     "GroupId": "08d8a31f-515f-4d26-8af3-519519a84f23",
@@ -3615,7 +3845,6 @@
         ]
     }
 },
-
 {
     "Name": "Exotic Active Shield Generator XS",
     "GroupId": "00000000-0000-0000-0002-000000000011",
