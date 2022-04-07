@@ -2927,37 +2927,725 @@
 {"Name": "Exotic Ionic Chamber XL","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 6006.69,"Tier": 5,"NqId": 962696448,"NqSchemaId": null,"Mass": 61820,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
 {"Name": "Exotic Ionic Chamber XS","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 19.1,"Tier": 5,"NqId": 962696457,"NqSchemaId": null,"Mass": 205.44,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-ionic-chamber_001_icon.png","GroupId": "08d8a31f-5134-4c0b-8562-2fe00ade0094"},
 
-{"Name": "Exotic Mobile Panel S","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 57.6,"Tier": 5,"NqId": 494823788,"NqSchemaId": null,"Mass": 123.14,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png","GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9"},
-{"Name": "Exotic Mobile Panel M","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 267.2,"Tier": 5,"NqId": 494823794,"NqSchemaId": null,"Mass": 588.53,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png","GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9"},
-{"Name": "Exotic Mobile Panel L","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 1382.4,"Tier": 5,"NqId": 494823795,"NqSchemaId": null,"Mass": 3100,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png","GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9"},
-{"Name": "Exotic Mobile Panel XL","Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.","Volume": 7428.8,"Tier": 5,"NqId": 407832409,"NqSchemaId": null,"Mass": 16970,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png","GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9"},
+{
+    "Name": "Exotic Mobile Panel S",
+    "GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9",
+    "Tier": 5,
+    "NqId": 494823788,
+    "NqSchemaId": 2867256863,
+    "Volume": 57.6,
+    "Mass": 123.14,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.",
+    "recipe": {
+        "craftingTime": 46080,
+        "ingredients": [
+            {"key": "Advanced Screw", "quantity": 5},
+            {"key": "Advanced hydraulics", "quantity": 2},
+            {"key": "Rare hydraulics", "quantity": 2},
+            {"key": "Grade 5 Titanium Alloy product", "quantity": 7},
+            {"key": "Exotic hydraulics", "quantity": 2}
+        ],
+        "products": [
+            {"key": "Exotic Mobile Panel S", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Mobile Panel M",
+    "GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9",
+    "Tier": 5,
+    "NqId": 494823794,
+    "NqSchemaId": 2867257496,
+    "Volume": 267.2,
+    "Mass": 588.53,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.",
+    "recipe": {
+        "craftingTime": 138240,
+        "ingredients": [
+            {"key": "Advanced Screw", "quantity": 25},
+            {"key": "Advanced hydraulics", "quantity": 8},
+            {"key": "Rare hydraulics", "quantity": 8},
+            {"key": "Grade 5 Titanium Alloy product", "quantity": 49},
+            {"key": "Exotic hydraulics", "quantity": 10}
+        ],
+        "products": [
+            {"key": "Exotic Mobile Panel M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Mobile Panel L",
+    "GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9",
+    "Tier": 5,
+    "NqId": 494823795,
+    "NqSchemaId": 2867258428,
+    "Volume": 1382.4,
+    "Mass": 3100,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.",
+    "recipe": {
+        "craftingTime": 414000,
+        "ingredients": [
+            {"key": "Advanced Screw", "quantity": 125},
+            {"key": "Advanced hydraulics", "quantity": 38},
+            {"key": "Rare hydraulics", "quantity": 38},
+            {"key": "Grade 5 Titanium Alloy product", "quantity": 343},
+            {"key": "Exotic hydraulics", "quantity": 50}
+        ],
+        "products": [
+            {"key": "Exotic Mobile Panel L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Mobile Panel XL",
+    "GroupId": "08d8a31f-513d-4188-8ceb-7c22d3da86d9",
+    "Tier": 5,
+    "NqId": 407832409,
+    "NqSchemaId": 676285710,
+    "Volume": 7428.8,
+    "Mass": 16970,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_functional-part-mobile-panel_001_icon.png",
+    "Description": "Functional parts are a relatively basic and low level Component that will define an Element's use. They come in different sizes based on your Element's volume.",
+    "recipe": {
+        "craftingTime": 1245600,
+        "ingredients": [
+            {"key": "Advanced Screw", "quantity": 625},
+            {"key": "Advanced hydraulics", "quantity": 188},
+            {"key": "Rare hydraulics", "quantity": 188},
+            {"key": "Grade 5 Titanium Alloy product", "quantity": 2401},
+            {"key": "Exotic hydraulics", "quantity": 250}
+        ],
+        "products": [
+            {"key": "Exotic Mobile Panel XL", "quantity": 1}
+        ]
+    }
+},
 
-{"Name": "Exotic Standard Frame XL","Description": "Structural Parts are a low level Component representing the frame of an Element. They come in different sizes based on your Element's volume.","Volume": 3602,"Tier": 5,"NqId": 873614024,"NqSchemaId": null,"Mass":9970,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_structural-part-standart-frame_001_icon.png","GroupId": "08d8a31f-515f-4d26-8af3-519519a84f23"},
+{
+    "Name": "Exotic Standard Frame XL",
+    "GroupId": "08d8a31f-515f-4d26-8af3-519519a84f23",
+    "Tier": 5,
+    "NqId": 873614024,
+    "NqSchemaId": 3350288540,
+    "Volume": 3602,
+    "Mass":9970,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_structural-part-standart-frame_001_icon.png",
+    "Description": "Structural Parts are a low level Component representing the frame of an Element. They come in different sizes based on your Element's volume.",
+    "recipe": {
+        "craftingTime": 828000,
+        "ingredients": [
+            {"key": "Silumin Product", "quantity": 1201},
+            {"key": "Grade 5 Titanium Alloy product", "quantity": 2401}
+        ],
+        "products": [
+            {"key": "Exotic Standard Frame XL", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Base Shield Generator XL",
+    "GroupId": "00000000-0000-0000-0002-000000000010",
+    "Tier": 4,
+    "NqId": 1430252067,
+    "NqSchemaId": 887556013,
+    "Volume": 22700,
+    "Mass": 138000,
+    "Icon": null,
+    "Description": "Base shield generators can be used to defend Space Constructs from attacks. Base shield generators feature a lockdown period during which the construct is impervious from attacks, allowing defenders to muster their strenghts",
+    "Hitpoints": 47250,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 1036800,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 648},
+            {"key": "Advanced Component", "quantity": 648},
+            {"key": "Rare Magnet", "quantity": 625},
+            {"key": "Rare Laser Chamber XL", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 256},
+            {"key": "Rare Reinforced Frame XL", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Base Shield Generator XL", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Active Shield Generator L",
+    "GroupId": "00000000-0000-0000-0002-000000000014",
+    "Tier": 5,
+    "NqId": 1747277189,
+    "NqSchemaId": 3195435147,
+    "Volume": 14530,
+    "Mass": 92000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 31500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 777600,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 216},
+            {"key": "Exotic Magnet", "quantity": 125},
+            {"key": "Exotic Laser Chamber L", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "qu16ntity": 64},
+            {"key": "Exotic Reinforced Frame L", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Active Shield Generator L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Capacitor Shield Generator L",
+    "GroupId": "00000000-0000-0000-0002-000000000014",
+    "Tier": 5,
+    "NqId": 3840257886,
+    "NqSchemaId": 1924805410,
+    "Volume": 22700,
+    "Mass": 58880,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.",
+    "Hitpoints": 31500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 777600,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 216},
+            {"key": "Exotic Magnet", "quantity": 125},
+            {"key": "Exotic Laser Chamber L", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "qu16ntity": 64},
+            {"key": "Exotic Reinforced Frame L", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Capacitor Shield Generator L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Variable Shield Generator L",
+    "GroupId": "00000000-0000-0000-0002-000000000014",
+    "Tier": 5,
+    "NqId": 2209766327,
+    "NqSchemaId": 2259323151,
+    "Volume": 22700,
+    "Mass": 92000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.",
+    "Hitpoints": 70875,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 777600,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 216},
+            {"key": "Exotic Magnet", "quantity": 125},
+            {"key": "Exotic Laser Chamber L", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "qu16ntity": 64},
+            {"key": "Exotic Reinforced Frame L", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Variable Shield Generator L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Active Shield Generator L",
+    "GroupId": "00000000-0000-0000-0002-000000000014",
+    "Tier": 4,
+    "NqId": 982995683,
+    "NqSchemaId": 733119373,
+    "Volume": 18160,
+    "Mass": 92000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 31500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 194400,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 108},
+            {"key": "Advanced Component", "quantity": 108},
+            {"key": "Rare Magnet", "quantity": 125},
+            {"key": "Rare Laser Chamber L", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 64},
+            {"key": "Rare Reinforced Frame L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Active Shield Generator L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Capacitor Shield Generator L",
+    "GroupId": "00000000-0000-0000-0002-000000000014",
+    "Tier": 4,
+    "NqId": 1478631104,
+    "NqSchemaId": 123175292,
+    "Volume": 22700,
+    "Mass": 73600,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.",
+    "Hitpoints": 31500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 194400,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 108},
+            {"key": "Advanced Component", "quantity": 108},
+            {"key": "Rare Magnet", "quantity": 125},
+            {"key": "Rare Laser Chamber L", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 64},
+            {"key": "Rare Reinforced Frame L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Capacitor Shield Generator L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Variable Shield Generator L",
+    "GroupId": "00000000-0000-0000-0002-000000000014",
+    "Tier": 4,
+    "NqId": 1486568571,
+    "NqSchemaId": 1960583322,
+    "Volume": 22700,
+    "Mass": 92000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.",
+    "Hitpoints": 47250,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 194400,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 108},
+            {"key": "Advanced Component", "quantity": 108},
+            {"key": "Rare Magnet", "quantity": 125},
+            {"key": "Rare Laser Chamber L", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 64},
+            {"key": "Rare Reinforced Frame L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Variable Shield Generator L", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Active Shield Generator M",
+    "GroupId": "00000000-0000-0000-0002-000000000013",
+    "Tier": 5,
+    "NqId": 484538921,
+    "NqSchemaId": 2329396151,
+    "Volume": 2880,
+    "Mass": 17000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 6750,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 194400,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 36},
+            {"key": "Exotic Magnet", "quantity": 25},
+            {"key": "Exotic Laser Chamber M", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "qu16ntity": 4},
+            {"key": "Exotic Reinforced Frame M", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Active Shield Generator M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Capacitor Shield Generator M",
+    "GroupId": "00000000-0000-0000-0002-000000000013",
+    "Tier": 5,
+    "NqId": 2037602890,
+    "NqSchemaId": 1843449972,
+    "Volume": 4500,
+    "Mass": 10880,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.",
+    "Hitpoints": 6750,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 194400,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 36},
+            {"key": "Exotic Magnet", "quantity": 25},
+            {"key": "Exotic Laser Chamber M", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "qu16ntity": 4},
+            {"key": "Exotic Reinforced Frame M", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Capacitor Shield Generator M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Variable Shield Generator M",
+    "GroupId": "00000000-0000-0000-0002-000000000013",
+    "Tier": 5,
+    "NqId": 3343633564,
+    "NqSchemaId": 2300111614,
+    "Volume": 4500,
+    "Mass": 17000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.",
+    "Hitpoints": 15188,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 194400,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 36},
+            {"key": "Exotic Magnet", "quantity": 25},
+            {"key": "Exotic Laser Chamber M", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "qu16ntity": 4},
+            {"key": "Exotic Reinforced Frame M", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Variable Shield Generator M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Active Shield Generator M",
+    "GroupId": "00000000-0000-0000-0002-000000000013",
+    "Tier": 4,
+    "NqId": 1514631881,
+    "NqSchemaId": 3796311669,
+    "Volume": 3600,
+    "Mass": 17000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 6750,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 64800,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 18},
+            {"key": "Advanced Component", "quantity": 18},
+            {"key": "Rare Magnet", "quantity": 25},
+            {"key": "Rare Laser Chamber M", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 16},
+            {"key": "Rare Reinforced Frame M", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Active Shield Generator M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Capacitor Shield Generator M",
+    "GroupId": "00000000-0000-0000-0002-000000000013",
+    "Tier": 4,
+    "NqId": 2098965040,
+    "NqSchemaId": 3411453260,
+    "Volume": 4500,
+    "Mass": 13600,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.",
+    "Hitpoints": 6750,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 64800,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 18},
+            {"key": "Advanced Component", "quantity": 18},
+            {"key": "Rare Magnet", "quantity": 25},
+            {"key": "Rare Laser Chamber M", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 16},
+            {"key": "Rare Reinforced Frame M", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Capacitor Shield Generator M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Variable Shield Generator M",
+    "GroupId": "00000000-0000-0000-0002-000000000013",
+    "Tier": 4,
+    "NqId": 1401343832,
+    "NqSchemaId": 261207515,
+    "Volume": 4500,
+    "Mass": 17000,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.",
+    "Hitpoints": 10125,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 64800,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 18},
+            {"key": "Advanced Component", "quantity": 18},
+            {"key": "Rare Magnet", "quantity": 25},
+            {"key": "Rare Laser Chamber M", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 16},
+            {"key": "Rare Reinforced Frame M", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Variable Shield Generator M", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Active Shield Generator S",
+    "GroupId": "00000000-0000-0000-0002-000000000012",
+    "Tier": 5,
+    "NqId": 2842824007,
+    "NqSchemaId": 4102306406,
+    "Volume": 608,
+    "Mass": 3300,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 4500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 48600,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 6},
+            {"key": "Exotic Magnet", "quantity": 5},
+            {"key": "Exotic Laser Chamber S", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "quantity": 4},
+            {"key": "Exotic Reinforced Frame S", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Active Shield Generator S", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Capacitor Shield Generator S",
+    "GroupId": "00000000-0000-0000-0002-000000000012",
+    "Tier": 5,
+    "NqId": 2602781071,
+    "NqSchemaId": 1876046971,
+    "Volume": 950,
+    "Mass": 2110,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.",
+    "Hitpoints": 4500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 48600,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 6},
+            {"key": "Exotic Magnet", "quantity": 5},
+            {"key": "Exotic Laser Chamber S", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "quantity": 4},
+            {"key": "Exotic Reinforced Frame S", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Capacitor Shield Generator S", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Exotic Variable Shield Generator S",
+    "GroupId": "00000000-0000-0000-0002-000000000012",
+    "Tier": 5,
+    "NqId": 4081549548,
+    "NqSchemaId": 1364236239,
+    "Volume": 950,
+    "Mass": 3300,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.",
+    "Hitpoints": 10125,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 48600,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 6},
+            {"key": "Exotic Magnet", "quantity": 5},
+            {"key": "Exotic Laser Chamber S", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "quantity": 4},
+            {"key": "Exotic Reinforced Frame S", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Variable Shield Generator S", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Active Shield Generator S",
+    "GroupId": "00000000-0000-0000-0002-000000000012",
+    "Tier": 4,
+    "NqId": 4128180027,
+    "NqSchemaId": 878056627,
+    "Volume": 760,
+    "Mass": 3300,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 4500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 16200,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 3},
+            {"key": "Advanced Component", "quantity": 3},
+            {"key": "Rare Magnet", "quantity": 5},
+            {"key": "Rare Laser Chamber S", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 4},
+            {"key": "Rare Reinforced Frame S", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Active Shield Generator S", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Capacitor Shield Generator S",
+    "GroupId": "00000000-0000-0000-0002-000000000012",
+    "Tier": 4,
+    "NqId": 2846330267,
+    "NqSchemaId": 983712170,
+    "Volume": 950,
+    "Mass": 2640,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.",
+    "Hitpoints": 4500,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 16200,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 3},
+            {"key": "Advanced Component", "quantity": 3},
+            {"key": "Rare Magnet", "quantity": 5},
+            {"key": "Rare Laser Chamber S", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 4},
+            {"key": "Rare Reinforced Frame S", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Capacitor Shield Generator S", "quantity": 1}
+        ]
+    }
+},
+{
+    "Name": "Rare Variable Shield Generator S",
+    "GroupId": "00000000-0000-0000-0002-000000000012",
+    "Tier": 4,
+    "NqId": 3052136397,
+    "NqSchemaId": 3094560136,
+    "Volume": 950,
+    "Mass": 3300,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.",
+    "Hitpoints": 6750,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 16200,
+        "ingredients": [
+            {"key": "Uncommon Component", "quantity": 3},
+            {"key": "Advanced Component", "quantity": 3},
+            {"key": "Rare Magnet", "quantity": 5},
+            {"key": "Rare Laser Chamber S", "quantity": 1},
+            {"key": "Rare Quantum Barrier", "quantity": 4},
+            {"key": "Rare Reinforced Frame S", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Rare Variable Shield Generator S", "quantity": 1}
+        ]
+    }
+},
 
-{"Name": "Base Shield Generator XL","Description": "Base shield generators can be used to defend Space Constructs from attacks. Base shield generators feature a lockdown period during which the construct is impervious from attacks, allowing defenders to muster their strenghts","Volume": 22700,"Tier": 4,"NqId": 1430252067,"NqSchemaId": null,"Mass": 138000,"Icon": null,"GroupId": "00000000-0000-0000-0002-000000000010"},
-
-{"Name": "Exotic Active Shield Generator L","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 14530,"Tier": 5,"NqId": 1747277189, "NqSchemaId": null,"Mass": 92000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","GroupId": "00000000-0000-0000-0002-000000000014"},
-{"Name": "Exotic Capacitor Shield Generator L","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.","Volume": 22700,"Tier": 5,"NqId": 3840257886, "NqSchemaId": null,"Mass": 58880,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","GroupId": "00000000-0000-0000-0002-000000000014"},
-{"Name": "Exotic Variable Shield Generator L","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.","Volume": 22700,"Tier": 5,"NqId": 2209766327, "NqSchemaId": null,"Mass": 92000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","GroupId": "00000000-0000-0000-0002-000000000014"},
-{"Name": "Rare Active Shield Generator L","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 18160,"Tier": 4,"NqId": 982995683, "NqSchemaId": null,"Mass": 92000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","GroupId": "00000000-0000-0000-0002-000000000014"},
-{"Name": "Rare Capacitor Shield Generator L","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.","Volume": 22700,"Tier": 4,"NqId": 1478631104, "NqSchemaId": null,"Mass": 73600,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","GroupId": "00000000-0000-0000-0002-000000000014"},
-{"Name": "Rare Variable Shield Generator L","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Large Shield Generator is a large element to be used on battleships or freighters. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.","Volume": 22700,"Tier": 4,"NqId": 1486568571, "NqSchemaId": null,"Mass": 92000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_l_icon.png","GroupId": "00000000-0000-0000-0002-000000000014"},
-
-{"Name": "Exotic Active Shield Generator M","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 2880,"Tier": 5,"NqId": 484538921, "NqSchemaId": null,"Mass": 17000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png","GroupId": "00000000-0000-0000-0002-000000000013"},
-{"Name": "Exotic Capacitor Shield Generator M","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.","Volume": 4500,"Tier": 5,"NqId": 2037602890, "NqSchemaId": null,"Mass": 10880,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png","GroupId": "00000000-0000-0000-0002-000000000013"},
-{"Name": "Exotic Variable Shield Generator M","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.","Volume": 4500,"Tier": 5,"NqId": 3343633564, "NqSchemaId": null,"Mass": 17000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png","GroupId": "00000000-0000-0000-0002-000000000013"},
-{"Name": "Rare Active Shield Generator M","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 3600,"Tier": 4,"NqId": 1514631881, "NqSchemaId": null,"Mass": 17000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png","GroupId": "00000000-0000-0000-0002-000000000013"},
-{"Name": "Rare Capacitor Shield Generator M","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.","Volume": 4500,"Tier": 4,"NqId": 2098965040, "NqSchemaId": null,"Mass": 13600,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png","GroupId": "00000000-0000-0000-0002-000000000013"},
-{"Name": "Rare Variable Shield Generator M","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Medium Shield Generator is a medium sized element to be used on mainline combat ships or larger transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.","Volume": 4500,"Tier": 4,"NqId": 1401343832, "NqSchemaId": null,"Mass": 17000,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_m_icon.png","GroupId": "00000000-0000-0000-0002-000000000013"},
-
-{"Name": "Exotic Active Shield Generator S","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 608,"Tier": 5,"NqId": 2842824007, "NqSchemaId": null,"Mass": 3300,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png","GroupId": "00000000-0000-0000-0002-000000000012"},
-{"Name": "Exotic Capacitor Shield Generator S","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.","Volume": 950,"Tier": 5,"NqId": 2602781071, "NqSchemaId": null,"Mass": 2110,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png","GroupId": "00000000-0000-0000-0002-000000000012"},
-{"Name": "Exotic Variable Shield Generator S","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.","Volume": 950,"Tier": 5,"NqId": 4081549548, "NqSchemaId": null,"Mass": 3300,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png","GroupId": "00000000-0000-0000-0002-000000000012"},
-{"Name": "Rare Active Shield Generator S","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 760,"Tier": 4,"NqId": 4128180027, "NqSchemaId": null,"Mass": 3300,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png","GroupId": "00000000-0000-0000-0002-000000000012"},
-{"Name": "Rare Capacitor Shield Generator S","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The capacitor shield generator variant boasts a stronger base shield health ath the cost of venting cooldown and venting power reductions.","Volume": 950,"Tier": 4,"NqId": 2846330267, "NqSchemaId": null,"Mass": 2640,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png","GroupId": "00000000-0000-0000-0002-000000000012"},
-{"Name": "Rare Variable Shield Generator S","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Small Shield Generator is a small element to be used on heavy fighters or smaller transports. The variable shield generator variant boasts stronger adjustable resistances and resistance adjusting cooldown at the cost of base shield health.","Volume": 950,"Tier": 4,"NqId": 3052136397, "NqSchemaId": null,"Mass": 3300,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_s_icon.png","GroupId": "00000000-0000-0000-0002-000000000012"},
-
-{"Name": "Exotic Active Shield Generator XS","Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Extra-Small Shield Generator is a minuscule element to be used on fighters or small shuttles. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.","Volume": 134.4,"Tier": 5,"NqId": 4078736566, "NqSchemaId": null,"Mass": 670,"Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_xs_icon.png","GroupId": "00000000-0000-0000-0002-000000000011"},
+{
+    "Name": "Exotic Active Shield Generator XS",
+    "GroupId": "00000000-0000-0000-0002-000000000011",
+    "Tier": 5,
+    "NqId": 4078736566,
+    "NqSchemaId": 1970389635,
+    "Volume": 134.4,
+    "Mass": 670,
+    "Icon": "https://cdn.hyperion-corporation.de/iconslib/env_shield-generator_001_xs_icon.png",
+    "Description": "Shield Generators will protect your constructs from hostile weapon damage until they are depleted. Shield generators can only be deployed on Dynamic Constructs. The Extra-Small Shield Generator is a minuscule element to be used on fighters or small shuttles. The active shield generator variant boasts a reduced cooldown and stronger venting regeneration at the cost of adjustable resistances and resistance adjusting cooldown.",
+    "Hitpoints": 1400,
+    "Antimatter Resistance": 0.1,
+    "Electromagnetic Resistance": 0.1,
+    "Kinetic Resistance": 0.1,
+    "Thermic Resistance": 0.1,
+    "recipe": {
+        "craftingTime": 12180,
+        "ingredients": [
+            {"key": "Advanced Component", "quantity": 1},
+            {"key": "Exotic Magnet", "quantity": 1},
+            {"key": "Exotic Laser Chamber XS", "quantity": 1},
+            {"key": "Exotic Quantum Barrier", "quantity": 1},
+            {"key": "Exotic Reinforced Frame XS", "quantity": 1},
+            {"key": "Relic Plasma Novem L", "quantity": 1}
+        ],
+        "products": [
+            {"key": "Exotic Active Shield Generator XS", "quantity": 1}
+        ]
+    }
+},
 {
     "Name": "Exotic Capacitor Shield Generator XS",
     "GroupId": "00000000-0000-0000-0002-000000000011",
