@@ -393,7 +393,12 @@
 {"Id": "00000000-0000-0000-0002-000000000011","Name": "Shield Generators XS","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "00000000-0000-0000-0002-000000000012","Name": "Shield Generators S","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
 {"Id": "00000000-0000-0000-0002-000000000013","Name": "Shield Generators M","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
-{"Id": "00000000-0000-0000-0002-000000000014","Name": "Shield Generators L","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null}
+{"Id": "00000000-0000-0000-0002-000000000014","Name": "Shield Generators L","Icon": null,"ParentId": "08d983f2-4c45-4042-837d-73282f0eaffc","Hidden": false,"Sorting": 0,"Description": null},
+
+{"Id": "00000000-0000-0000-0002-000000000015","Name": "Stasis Ammo","Icon": null,"ParentId": "08d8a31f-4f19-43b4-8283-170f6728bfd9","Hidden": false,"Sorting": 0,"Description": null},
+{"Id": "00000000-0000-0000-0002-000000000016","Name": "Stasis Weapon Unit","Icon": null,"ParentId": "08d8a31f-4f48-4300-8654-9df9d94ac9b7","Hidden": false,"Sorting": 0,"Description": null},
+
+{"Id": "00000000-0000-0000-0002-000000000017","Name": "Plasma Extractors","Icon": null,"ParentId": "08d8a31f-4fca-41ed-8134-ddaeff6f3cc8","Hidden": false,"Sorting": 0,"Description": null}
 
 
 ]
