@@ -12,17 +12,18 @@
         "Volume": {"type": "number", "minimum": 0},
         "Mass": {"type": "number", "minimum": 0},
         "Icon": {"type": "string"},
-        //element
+        
         "Hitpoints": {"type": "integer", "minimum": 1},
         "Antimatter Resistance": {"type": "number"},
         "Electromagnetic Resistance": {"type": "number"},
         "Kinetic Resistance": {"type": "number"},
         "Thermic Resistance": {"type": "number"},
+        
         "Rate of Fire": {"type": "integer", "description": "Rate of fire in seconds"},
         "Reload": {"type": "integer", "description": "Reload rate in seconds"},
         "Magazin Volume": {"type": "integer", "description": "Magazin volume in liters", "minimum": 1},
         "Capacity Cost": {"type": "integer"},
-        //ammo
+        
         "Damage Type": {"type": "string"},
         "Weapon Damage Modifier": {"type": "number"},
         "Weapon Cone Modifier": {"type": "number"},
@@ -30,7 +31,7 @@
         "Weapon Optimal Distance Modifier": {"type": "number"},
         "Weapon Maximum Distance Modifier": {"type": "number"},
         "Weapon Accuracy Modifier": {"type": "number"},
-        
+
         "Description": {"description": "a describing text for the item", "type": "string"},
         "NqSchemaId": {"type": "integer", "minimum": 1},
         "recipe": {
